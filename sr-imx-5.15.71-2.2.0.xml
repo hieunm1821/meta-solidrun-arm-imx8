@@ -10,7 +10,7 @@
   <remote fetch="https://github.com/kraj" name="clang"/>
   <remote fetch="https://github.com/Freescale" name="community"/>
   <remote fetch="https://github.com/openembedded" name="oe"/>
-  <remote fetch="https://git.yoctoproject.org/git" name="yocto"/>
+  <remote fetch="https://github.com/yoctoproject" name="yocto"/>
   <remote fetch="https://github.com/nxp-imx-support" name="imx-support"/>
   <remote fetch="https://github.com/SolidRun/" name="solidrun"/>
   <remote fetch="https://github.com/hailo-ai/" name="hailo-ai"/>
@@ -35,7 +35,7 @@
   <project name="meta-qt6" path="sources/meta-qt6" remote="QT6" revision="48b5dcc16b7adf059b6e42e5e9895b98584df028" upstream="6.3.2"/>
   <project name="meta-timesys" path="sources/meta-timesys" remote="Timesys" revision="d1ad27bfacc937048e7f9084b17f4d7c917d2004" upstream="master"/>
   <project name="meta-virtualization" path="sources/meta-virtualization" remote="yocto" revision="9d056f957b42e31f1c2c5bad0af1ab6c84b53ee6" upstream="kirkstone"/>
-  <project name="poky" path="sources/poky" remote="yocto" revision="f53ab3a2ff206a130cdc843839dd0ea5ec4ad02f" upstream="kirkstone"/>
+  <project name="poky" path="sources/poky" remote="yocto" revision="b6f6c729453cb88961488e3332046517e2fe99bb" upstream="kirkstone"/>
   <project name="meta-hailo" path="sources/meta-hailo" remote="hailo-ai" revision="7c1fbd2e312b04dae53accf5ff8fe77d1e52e488" upstream="kirkstone"/>
   <project name="meta-mender" path="sources/meta-mender" remote="mender" revision="eb5b14577295ec3a15d3b21602ac4607a0cb3ad8" upstream="kirkstone"/>
   <project name="meta-solidrun-arm-imx8" path="sources/meta-solidrun-arm-imx8" remote="solidrun" revision="kirkstone-imx8m">
